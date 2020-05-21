@@ -103,7 +103,7 @@ namespace solucaoRamo
                     pessoa.idade = int.Parse(Console.ReadLine());
                     if(pessoa.idade > 120 | pessoa.idade < 0)
                     {
-                        Console.WriteLine("\nInforme uma idade entre 0 e 120 anos");
+                        Console.WriteLine("Informe uma idade entre 0 e 120 anos");
                     }
                 } while (pessoa.idade > 120 | pessoa.idade < 0);
 
