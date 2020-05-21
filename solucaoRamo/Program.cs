@@ -23,7 +23,7 @@ namespace solucaoRamo
             Console.ForegroundColor = ConsoleColor.Blue; //Mudar cor da fonte
             Console.WriteLine("\n\tRamo - Seleção da Função");
             Console.ResetColor(); //Voltar ao padrão de cor
-            Console.WriteLine("\nInforme a opção desejada: \n1-Lista de Classificação | 2-Classificação por Cores | 3-Sair");
+            Console.WriteLine("\nInforme a opção desejada: \n[1]Lista de Classificação | [2]Classificação por Cores | [3]Sair");
 
             opcao = int.Parse(Console.ReadLine()); //TypeCast para conversão de dados coletados
 
@@ -39,11 +39,11 @@ namespace solucaoRamo
                     break;
                 case 3:
                     Console.Clear();
-                    Console.WriteLine("Obrigado por usar nosso programa.");
+                    Console.WriteLine("\nObrigado por usar nosso programa.");
                     break;
                 default:
                     Console.Clear();
-                    Console.WriteLine("Opção Inválida!");
+                    Console.WriteLine("\nOpção Inválida!");
                     break;
             }
         }
@@ -68,7 +68,7 @@ namespace solucaoRamo
             Console.WriteLine("De 11 a 64 anos     | De R$ 100,00 acima      | Luxo                 | Amarelo");
             Console.WriteLine("Acima de 65 anos    | De R$ 100,00 acima      | Luxo                 | Verde");
 
-            Console.WriteLine("\nGostaria de voltar pra tela de seleção?\n1-Voltar pra tela de seleção");
+            Console.WriteLine("\nGostaria de voltar pra tela de seleção?\n[1]Voltar pra tela de seleção");
             voltar = Console.ReadLine();
 
             //Condição para voltar a tela de Seleção
@@ -81,9 +81,9 @@ namespace solucaoRamo
 
         static void Classificar(ref Passageiro pessoa)
         {
-            string voltar;
+            string repetir;
 
-            //Repetição caso queira realizar uma nova leitura da Classificação por Cores
+            //Repetição caso queira realizar uma nova leitura na tela Classificação por Cores
             do
             {
                 Console.Clear();
@@ -92,14 +92,31 @@ namespace solucaoRamo
                 Console.WriteLine("\n\tClassificação por Cores: ");
                 Console.ResetColor();
 
+
                 Console.WriteLine("\nInforme o nome do passageiro: ");
                 pessoa.nome = Console.ReadLine();
 
-                Console.WriteLine("Informe a idade do passageiro: ");
-                pessoa.idade = int.Parse(Console.ReadLine());
+                //Repetição enquanto o usuário digitar uma idade superior a 120 ou inferior a 0
+                do
+                {
+                    Console.WriteLine("\nInforme a idade do passageiro: ");
+                    pessoa.idade = int.Parse(Console.ReadLine());
+                    if(pessoa.idade > 120 | pessoa.idade < 0)
+                    {
+                        Console.WriteLine("\nInforme uma idade entre 0 e 120 anos");
+                    }
+                } while (pessoa.idade > 120 | pessoa.idade < 0);
 
-                Console.WriteLine("Informe o valor do bilhete: ");
-                pessoa.valorBilhete = double.Parse(Console.ReadLine());
+                //Repetição enquanto o usuário digitar um valor de bilhete inferior a R$ 1
+                do
+                {
+                    Console.WriteLine("\nInforme o valor do bilhete: ");
+                    pessoa.valorBilhete = double.Parse(Console.ReadLine());
+                    if(pessoa.valorBilhete < 1)
+                    {
+                        Console.WriteLine("Não existe bilhete neste valor.");
+                    }
+                } while (pessoa.valorBilhete < 1);
 
                 //Condição para pegar a classe e cor do assento do passageiro até 10 anos
                 if (pessoa.idade <= 10)
@@ -164,13 +181,13 @@ namespace solucaoRamo
                 //Imprimindo a resposta para o usuário
                 Mensagem(pessoa);
 
-                Console.WriteLine("\nInforme a opção:\n1-Repetir processo de leitura | 2-Voltar a tela Seleção da Função");
-                voltar = Console.ReadLine();
+                Console.WriteLine("\nDigite 1 ou 2:\n[1]Repetir processo de leitura | [2]Voltar para a tela Seleção da Função");
+                repetir = Console.ReadLine();
 
-            } while (voltar == "1" | voltar == "sim" | voltar == "s");
+            } while (repetir == "1" | repetir == "sim" | repetir == "s");
 
             //Condição para ir a tela Seleção de Função
-            if (voltar == "2")
+            if (repetir == "2")
             {
                 Console.Clear();
                 Apresentacao();
