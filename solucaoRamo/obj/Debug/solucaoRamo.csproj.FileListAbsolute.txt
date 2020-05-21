@@ -1,0 +1,7 @@
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\bin\Debug\solucaoRamo.exe.config
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\bin\Debug\solucaoRamo.exe
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\bin\Debug\solucaoRamo.pdb
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\obj\Debug\solucaoRamo.csprojAssemblyReference.cache
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\obj\Debug\solucaoRamo.csproj.CoreCompileInputs.cache
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\obj\Debug\solucaoRamo.exe
+C:\Users\Paiva\Desktop\solucao-Ramo\solucaoRamo\solucaoRamo\obj\Debug\solucaoRamo.pdb
