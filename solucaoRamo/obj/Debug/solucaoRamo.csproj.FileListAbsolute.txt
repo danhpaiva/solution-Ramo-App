@@ -12,3 +12,7 @@ C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\obj\Debug\solucaoRamo.pdb
 C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\bin\Debug\solucaoRamo.exe.config
 C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\bin\Debug\solucaoRamo.exe
 C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\bin\Debug\solucaoRamo.pdb
+C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\bin\Debug\solucaoRamo.exe.manifest
+C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\bin\Debug\solucaoRamo.application
+C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\obj\Debug\solucaoRamo.exe.manifest
+C:\Users\Paiva\Desktop\solution-Ramo\solucaoRamo\obj\Debug\solucaoRamo.application

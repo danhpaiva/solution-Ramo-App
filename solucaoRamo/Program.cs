@@ -20,8 +20,10 @@ namespace solucaoRamo
         {
             int opcao;
 
+            Console.ForegroundColor = ConsoleColor.Blue; //Mudar cor da fonte
             Console.WriteLine("\n\tRamo - Seleção da Função");
-            Console.WriteLine("\n\tInforme a opção desejada: \n\t1-Lista de Classificação | 2-Classificação por Cores | 3-Sair");
+            Console.ResetColor(); //Voltar ao padrão de cor
+            Console.WriteLine("\nInforme a opção desejada: \n1-Lista de Classificação | 2-Classificação por Cores | 3-Sair");
 
             opcao = int.Parse(Console.ReadLine()); //TypeCast para conversão de dados coletados
 
@@ -51,7 +53,10 @@ namespace solucaoRamo
 
             Console.Clear(); //Limpar a tela
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n\tLista de Classificação: ");
+            Console.ResetColor();
+
             Console.WriteLine("\nIdade do Passageiro | Valor do Bilhete        | Classe do Passageiro | Cor do Assento\n");
             Console.WriteLine("De  0 a 10 anos     | De R$ 1,00 a R$ 49,99   | Econômica            | Azul");
             Console.WriteLine("De 11 a 64 anos     | De R$ 1,00 a R$ 49,99   | Econômica            | Amarelo");
@@ -82,7 +87,10 @@ namespace solucaoRamo
             do
             {
                 Console.Clear();
+
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("\n\tClassificação por Cores: ");
+                Console.ResetColor();
 
                 Console.WriteLine("\nInforme o nome do passageiro: ");
                 pessoa.nome = Console.ReadLine();
