@@ -10,3 +10,7 @@ uma ferramenta de CLASSIFICAÇÃO POR CORES através da leitura de dados forneci
 
 ## Ferramentas utilizadas
 - Visual Studio 2019
+
+## :lock: Licença
+
+Desenvolvido por <a url="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
