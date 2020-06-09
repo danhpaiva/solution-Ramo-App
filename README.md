@@ -13,4 +13,4 @@ uma ferramenta de CLASSIFICAÇÃO POR CORES através da leitura de dados forneci
 
 ## :lock: Licença
 
-Desenvolvido por <a url="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
+Desenvolvido por <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
