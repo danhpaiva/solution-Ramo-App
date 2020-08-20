@@ -1,0 +1,10 @@
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\bin\Release\solucaoRamo.exe.config
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\bin\Release\solucaoRamo.exe.manifest
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\bin\Release\solucaoRamo.application
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\bin\Release\solucaoRamo.exe
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\bin\Release\solucaoRamo.pdb
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\obj\Release\solucaoRamo.csproj.CoreCompileInputs.cache
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\obj\Release\solucaoRamo.exe.manifest
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\obj\Release\solucaoRamo.application
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\obj\Release\solucaoRamo.exe
+C:\Users\Paiva\Desktop\solution-Ramo-App\solucaoRamo\obj\Release\solucaoRamo.pdb

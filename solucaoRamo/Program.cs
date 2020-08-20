@@ -101,7 +101,7 @@ namespace solucaoRamo
                 {
                     Console.WriteLine("\nInforme a idade do passageiro: ");
                     pessoa.idade = int.Parse(Console.ReadLine());
-                    if(pessoa.idade > 120 | pessoa.idade < 0)
+                    if (pessoa.idade > 120 | pessoa.idade < 0)
                     {
                         Console.WriteLine("Informe uma idade entre 0 e 120 anos");
                     }
@@ -112,7 +112,7 @@ namespace solucaoRamo
                 {
                     Console.WriteLine("\nInforme o valor do bilhete: ");
                     pessoa.valorBilhete = double.Parse(Console.ReadLine());
-                    if(pessoa.valorBilhete < 1)
+                    if (pessoa.valorBilhete < 1)
                     {
                         Console.WriteLine("Não existe bilhete neste valor.");
                     }
